@@ -37,7 +37,9 @@ playing with LLMs in a Production environment (which probably includes fine tuni
 - Lots of scripts to deploy your `code` and `data` to cloud storage (ex `s3`) will make your life easier when deploying to remote `GPU` machines.
 
 #### This codebase can be read in conjunction with a  blog post to make this more clear.
-Coming soon to `https://dataengineeringcentral.substack.com/` search `LLM` to see Part 1
+You can follow along here https://dataengineeringcentral.substack.com/p/llms-part-2-fine-tuning-openllama
+
+If you are not down with LLMs ... see Part 1
 that gives a high level overview of LLMs (local inference on a laptop).
 https://dataengineeringcentral.substack.com/p/demystifying-the-large-language-models
 
