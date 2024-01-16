@@ -48,4 +48,7 @@ If you want to manually drop into the container and tie the local volume ...
 `docker run -v ${PWD}:/app/ -it llm-fine-tuning /bin/bash`
 
 #### To Extract the Blog Posts
-`docker-compose up blogs` etc.
+`docker-compose up blogs` 
+
+#### To Fine-Tune the Model
+`docker-compose up finetune`
