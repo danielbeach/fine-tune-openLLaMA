@@ -1,0 +1,12 @@
+bs4
+torch
+transformers
+langchain
+accelerate
+bitsandbytes
+datasets
+peft
+loralib
+sentencepiece
+scipy
+tensorboardX

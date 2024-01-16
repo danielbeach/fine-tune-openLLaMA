@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  blogs:
+    image: "llm-fine-tuning"
+    volumes:
+      - .:/app
+    command: python3 src/extracting_blog_posts.py
+  finetune:
+    image: "llm-fine-tuning"
+    volumes:
+      - .:/app
+    command: python3 src/fine_tune_openllama.py
